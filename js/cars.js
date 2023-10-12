@@ -1,5 +1,6 @@
-export default function getCars() {
-  return [
+// export default function getCars() {
+//   return [
+let carsFromFile =[
     {name: "Camry", year: 2024, type: "vehicle"},
     {name: "Tundra", year: 2023, type: "truck"},
     {name: "RAV", year: 2024, type: "SUV"},
@@ -10,4 +11,4 @@ export default function getCars() {
     {name: "Tundra i-Force", year: 2024, type: "truck"},
     {name: "4Runner", year: 2024, type: "SUV"},    
   ];
-}
+// }

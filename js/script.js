@@ -1,4 +1,4 @@
-import carsFromFile from "./cars.js";
+// import carsFromFile from "./cars.js";
 
 class Toyota {
   constructor(){
@@ -51,7 +51,8 @@ const fakeFetch = (url) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       console.log(`Fetching cars from ${url}`);
-      const carsArray = carsFromFile();
+      const carsArray = carsFromFile;
+      // const carsArray = carsFromFile();
       // Validating the array that was imported from another js file
       if(carsArray.length <= 0){
         reject("Cars Array is Empty");
